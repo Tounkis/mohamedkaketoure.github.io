@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Libre Formation |Accueil</title>
+	<!-- liaison bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+	body {
+		background-color: rgb(95, 95, 161);
+	}
+	
+.form {
+
+	width: 600px;
+	background-color: rgb(45, 45, 77);
+	margin: auto;
+	color: white;
+}
+
+.bloc {
+	width: 550px;
+	margin-left: 15px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+</style>
+
+<body class="container-fluid">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	  <div class="container-fluid">
+	    <a class="navbar-brand text-danger" href="#">SHINE-PRESS</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="page.html">ACCUEIL</a>
+	        </li>
+	        
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	            E-BOUTIQUE
+	          </a>
+	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="index.html">Voiture</a></li>
+	            <li><a class="dropdown-item" href="#">Technologie</a></li>
+	            <li><a class="dropdown-item" href="#">Chaussure</a></li>
+	          </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="#">INSCRIPTION</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="login.html">CONNEXION</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex">
+	        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+	        <button class="btn btn-outline-danger" type="submit">Chercher</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+
+	<br><br><br>
+	<h2 class="text-center text-white">Veuillez Vous Connecter</h2>
+	<form class="form">
+		<br>
+		<label class="bloc">Nom d'utilisateur :</label><br>
+		<input class="bloc" type="text" placeholder="Entrez votre nom d'utilisateur"><br><br>
+		<label class="bloc">Mot de passe :</label><br>
+		<input class="bloc" type="password" placeholder="Mot de passe"><br><br>
+		<button class="btn btn-success bloc">Connexion</button><br><br>
+	</form>
+
+</body>
+</html>
